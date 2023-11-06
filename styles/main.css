@@ -29,6 +29,7 @@ body {
 
 .page-wrap {
   min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -52,6 +53,7 @@ body {
   justify-content: space-between;
   gap: 25px;
   padding-bottom: 180px;
+  flex-wrap: wrap;
 }
 
 .flex-column-container-control {
@@ -60,6 +62,7 @@ body {
   justify-content: space-between;
   gap: 15px;
   padding-bottom: 250px;
+  flex-wrap: wrap;
 }
 
 .flex-column-container-developers {
@@ -68,6 +71,7 @@ body {
   justify-content: space-between;
   gap: 15px;
   padding-bottom: 150px;
+  flex-wrap: wrap;
 }
 
 .flex-container-companies {
@@ -102,6 +106,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 85px;
+  flex-wrap: wrap;
 }
 
 .flex-column-container-footer {
@@ -111,6 +116,7 @@ body {
   gap: 100px;
   align-items: first baseline;
   border-bottom: solid 1px var(--black);
+  flex-wrap: wrap;
 }
 
 .flex-column-text-footer {
@@ -120,6 +126,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 34px;
+  flex-wrap: wrap;
 }
 
 .flex-column-end-footer {
@@ -127,6 +134,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .flex-column-container-cake {
@@ -134,6 +142,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 125px;
+  flex-wrap: wrap;
 }
 
 .flex-container-tools {
@@ -434,11 +443,13 @@ button:hover {
 /* main */
 .main {
   margin-top: 115px;
+  flex-wrap: wrap;
 }
 
 /* product */
 .text-product {
   max-width: 100%;
+  flex-wrap: wrap;
 }
 
 .product {
@@ -446,9 +457,11 @@ button:hover {
 }
 
 .image-product {
-  min-width: 750px;
+  max-width: 750px;
+  width: 100%;
   max-height: 520px;
   object-fit: cover;
+  flex-wrap: wrap;
 }
 
 /* companies */
@@ -489,7 +502,7 @@ button:hover {
 .image-box {
   width: 100%;
   max-width: 632px;
-  height: 632px;
+  min-height: auto;
   object-fit: cover;
 }
 
@@ -589,7 +602,7 @@ button:hover {
 .img-revolut-shief {
   width: 100%;
   max-width: 310px;
-  height: 310px;
+  min-height: auto;
   object-fit: cover;
 }
 
@@ -644,7 +657,7 @@ button:hover {
 .bird {
   width: 100%;
   max-width: 1023px;
-  height: 460px;
+  min-height: auto;
   object-fit: cover;
 }
 
