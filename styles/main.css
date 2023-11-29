@@ -54,7 +54,7 @@
   .flex-column-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 25px;
     padding-bottom: 120px;
     flex-wrap: wrap;
@@ -65,7 +65,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     flex-wrap: wrap;
   }
   
@@ -104,11 +104,11 @@
     gap: 75px;
     flex-wrap: wrap;
   }
-  
+
   .flex-column-container-revolut-shief {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 85px;
     flex-wrap: wrap;
   }
@@ -167,8 +167,8 @@
   .companies-logos {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 103px;
+    justify-content: center;
+    gap: 70px;
     flex-wrap: wrap;
   }
   
@@ -530,7 +530,7 @@
   
   .text-box-time {
     max-width: 100%;
-    padding: 20px 70px 20px 0;
+    padding: 20px 0px 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -728,15 +728,6 @@
       gap: 15px;
     }
   
-    .nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 35px;
-      padding-top: 6px;
-      flex-wrap: wrap;
-    }
-  
     .flex-container {
       display: flex;
       align-items: center;
@@ -753,7 +744,7 @@
     .flex-column-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       gap: 25px;
       padding-bottom: 120px;
       flex-wrap: wrap;
@@ -762,8 +753,8 @@
     .companies-logos {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 50px;
+      justify-content: center;
+      gap: 70px;
       flex-wrap: wrap;
     }
   
@@ -777,7 +768,7 @@
       flex-direction: row;
       justify-content: space-between;
       gap: 15px;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
       flex-wrap: wrap;
     }
   
@@ -865,22 +856,31 @@
         border-bottom: solid 1px var(--black);
         flex-wrap: wrap;
       }
+
+      .flex-column-container-revolut-shief {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 85px;
+        flex-wrap: wrap;
+      }
+
   }
   
   @media (min-width: 700px) {
     .nav-logo-flex {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       gap: 30px;
     }
   
-    .nav {
+    .menu {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 35px;
+      gap: 15px;
       padding-top: 6px;
       flex-wrap: wrap;
     }
@@ -910,7 +910,7 @@
     .companies-logos {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       gap: 70px;
       flex-wrap: wrap;
     }
@@ -1003,6 +1003,15 @@
         border-bottom: solid 1px var(--black);
         flex-wrap: wrap;
       }
+
+      .flex-column-container-revolut-shief {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 85px;
+        flex-wrap: wrap;
+      }
+
   }
   
   
@@ -1014,15 +1023,6 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 51px;
-    }
-  
-    .nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 42px;
-      padding-top: 6px;
-      flex-wrap: wrap;
     }
   
     .flex-container {
@@ -1143,6 +1143,25 @@
         border-bottom: solid 1px var(--black);
         flex-wrap: wrap;
       }
+
+      .flex-column-container-revolut-shief {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 85px;
+        flex-wrap: wrap;
+      }
+
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 42px;
+        padding-top: 6px;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+
   }
   
   
@@ -1272,5 +1291,47 @@
 
       .display-none {
         display: block;
+      }
+
+      .h1 {
+        font-size: var(--h2-small);
+        line-height: 107.692%;
+      }
+      
+      .h1-var2 {
+        font-size: var(--h2-small);
+        line-height: 115.4%;
+      }
+
+      .h2 {
+        font-size: var(--h2-small);
+        line-height: 120%;
+        text-align: center;
+      }
+
+      .h3-large {
+        font-size: var(--h3-large);
+        line-height: 142.9%;
+        text-align: center;
+      }
+      
+      .h3 {
+        font-size: var(--h3);
+        line-height: 133.3%;
+        text-align: center;
+      }
+
+      .product {
+        margin-left: 0;
+      }
+
+      .cake-logo-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: start;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 67px;
       }
   }
